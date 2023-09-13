@@ -27,4 +27,4 @@ Para utilizar la aplicación, sigue estos pasos:
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/TU_USUARIO/NOMBRE_DEL_REPOSITORIO.git
+   git clone https://github.com/Antoniomorales17/Quuiz.git
