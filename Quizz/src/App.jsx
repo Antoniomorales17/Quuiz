@@ -19,7 +19,6 @@ function App() {
     setEarned("$ 0"); // Reinicia las ganancias si es necesario
   };
   
-
   const data = [
     {
       id: 1,
