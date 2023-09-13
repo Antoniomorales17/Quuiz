@@ -17,7 +17,7 @@
 ## Capturas de Pantalla
 
 ![Captura de pantalla 1](https://i.imgur.com/n2E0xHn.png)
-![Captura de pantalla 2](Uhttps://i.imgur.com/Q8LzQG1.png)
+![Captura de pantalla 2](https://i.imgur.com/Q8LzQG1.png)
 
 
 ## Instalación
