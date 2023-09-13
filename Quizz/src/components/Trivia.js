@@ -70,8 +70,9 @@ export default function Trivia({
     <div className="trivia">
       <div className="question">{question?.question}</div>
       <div className="answers">
-        {question?.answers.map((a) => (
+        {question?.answers.map((a, index) => (
           <div
+            key={index} // Usamos el índice como clave única aquí
             className={selectedAnswer === a ? className : "answer"}
             onClick={() => !selectedAnswer && handleClick(a)}
           >
@@ -81,4 +82,5 @@ export default function Trivia({
       </div>
     </div>
   );
+  
 }

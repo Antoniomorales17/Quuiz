@@ -117,7 +117,7 @@
 }
 
 .answer.correct {
-  animation: correct 3s ease forwards;
+  animation: correct 2s ease forwards;
 }
 
 @keyframes correct {
@@ -138,7 +138,7 @@
 }
 
 .answer.wrong {
-  animation: wrong 3s ease forwards;
+  animation: wrong 2s ease forwards;
 }
 
 @keyframes wrong {
@@ -158,22 +158,55 @@
   }
 }
 
-.endText {
+/* .endText {
   position: relative;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
-}
+  justify-content: center;
+  align-items: center;
+  display: flex;
+} */
 
-.start {
-  width: 250px;
-  height: 100px;
+.endTextContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  height: 100%;
+}
+
+.endText {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.restartButton {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.restartButton:hover {
+  background-color: #0056b3;
+}
+
+
+.start {
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  height: 650px; /* Ajusta la altura a tu preferencia */
+  background-size: cover; /* Escala la imagen para que cubra todo el contenedor */
+  background-position: center; /* Centra la imagen horizontal y verticalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   position: relative;
   top: 0;
   bottom: 0;
@@ -182,13 +215,19 @@
   margin: auto;
 }
 
+
 .startInput {
-  width: 100%;
-  height: 30px;
+  width: auto; /* Ancho automático para ajustarse al contenido */
+  height: 20px; /* Altura deseada */
   border: none;
   border-radius: 5px;
-  text-align: center;
+  cursor: pointer;
   font-size: 18px;
+  font-weight: 500; 
+  background-color: #eef1f5; /* Color de fondo del botón */
+  color: #000; /* Color de texto del botón */
+  padding: 5px 5px; 
+  margin-bottom: 5%;
 }
 
 .startInput:focus {
@@ -196,11 +235,39 @@
 }
 
 .startButton {
-  width: 100%;
-  height: 30px;
+  width: auto; /* Ancho automático para ajustarse al contenido */
+  height: 40px; /* Altura deseada */
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 18px;
   font-weight: 500;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color de texto del botón */
+  padding: 10px 20px; /* Espacio interno del botón */
+}
+
+.themeSelection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.themeSelection p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para el menú desplegable de temas */
+.themeDropdown {
+  width: 200px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.errorText {
+  color: red;
+  font-weight: bold;
+  
 }
