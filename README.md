@@ -1,6 +1,6 @@
 # ¿Quién Quiere Ser Millonario? - Edición Temática
 
-![Logo de ¿Quién Quiere Ser Millonario?](https://imgur.com/a/gfkX880)
+![Logo de ¿Quién Quiere Ser Millonario?](https://imgur.com/a/gfkX880.png)
 
 ## Descripción
 
