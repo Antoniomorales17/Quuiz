@@ -28,3 +28,7 @@ Para utilizar la aplicación, sigue estos pasos:
 
    ```bash
    git clone https://github.com/Antoniomorales17/Quuiz.git
+     
+   o
+   ```bash
+   npm run start
