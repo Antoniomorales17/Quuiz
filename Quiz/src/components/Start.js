@@ -7,7 +7,7 @@ import senorDeLosAnillosImage from "./../assets/ring.jpg";
 import gameOfThronesAudio from "./../assets/gotsound.mp3"; // Agrega la importación del audio correspondiente
 import harryPotterAudio from "./../assets/harrysound.mp3"; // Agrega la importación del audio correspondiente
 import senorDeLosAnillosAudio from "./../assets/ringsound.mp3";
-import quienQuiereSerMillonarioImage from "./../assets/millonario.jpg";
+
 
 export default function Start({ setUsername, setTheme }) {
   const inputRef = useRef();
